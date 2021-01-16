@@ -116,9 +116,6 @@ export default {
 				return
 			}
 
-			//const validBlocks = this.blocks.filter(block => block.value)
-			console.log(this.validBlocks)
-
 			if (!this.validBlocks.length) {
 				alert('Нечего сохранять')
 				return
